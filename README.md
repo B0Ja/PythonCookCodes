@@ -5,3 +5,5 @@ A Python cookbook like codes for various applications and uses. A educational an
 1. Pi Decimal Pattern Match Locator: Calculates the Pi to a decimal place and checks if the provided number exists in the decimal match.
 
 2. A second version of the above using Regex. More efficient than no. 1.
+
+3. String-Match uses the an user-input string, program produces random character generation to match the input string.
