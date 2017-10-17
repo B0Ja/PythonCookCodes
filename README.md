@@ -8,3 +8,7 @@ A Python cookbook like codes for various applications and uses. A educational an
 4. Kaprekar's constant
 5. Collatz Conjecture & 3n+1
 6. Riemnann Hypothesis - Zeta and Zero plots of RH in imaginary numberspace
+
+7. Most of the Python 2*, converted / adapted to Python 3*
+
+
