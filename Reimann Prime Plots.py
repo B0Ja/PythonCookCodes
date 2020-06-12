@@ -14,7 +14,7 @@ distribution of prime numbers on the imaginary numberspace.
 import matplotlib.pyplot as plt
 import mpmath
 
-n = int(raw_input("Input total number of Reimann Zeros to chart [default = 25]") or 25)
+n = int(input("Input total number of Reimann Zeros to chart [default = 25]") or 25)
 
 listx, r, im, counter = [], [], [], []
 
@@ -27,12 +27,14 @@ for i in range (1,n):
     im.append(imi)
     counter.append(i)
     
-zet = plt.figure()
+    
+zet = plt.figure(figsize=(10,10))
 zetx = zet.add_subplot(111)
-zetx.scatter(r, im, lw = 2, marker = "+")
+zetx.scatter(r, im, lw = 2, marker = "o", color='tab:red')
 zetx.set_xlim([-1, 1])
-zetx.grid(True)
-plt.title("Distribution of Prime Numbers on Riemann Zeta's critical strip.")
+zetx.grid(True, linestyle='dashed', color='tab:gray', alpha=0.5)
+
+plt.title("Distribution of Prime Numbers on Riemann Zeta's critical strip.", loc='center', color='k', fontsize=12)
 plt.show()
     
     
