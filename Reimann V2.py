@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: sriganesh /Brijesh Janardhanan
+@author: sriganesh
 
 Plotting the Reimann Zeta function map in imaginary numberspace.
 
