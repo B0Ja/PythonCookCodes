@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 13 22:57:23 2016
-
-@author: sriganesh
-
-STRING-MATCH
-
-PS: This program is based on one of book-programs, unfortunately I don't remember which book. Suffice to say its not a completely original creation.
-"""
-
 import string
 import random
 import time
